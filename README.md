@@ -4,7 +4,7 @@
 
 # Url2QrCode
 
-Url2rCode is a Goolgle Chrome Extension. 
+Url2rCode is a Google Chrome Extension. 
 
 The ojective of this extension is create à QrCode based on your current url this is usefull when you continue to navigate on your phone. 
 
