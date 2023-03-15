@@ -7,7 +7,8 @@ function generateQRCode(url) {
   const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(
     url
   )}`;
-  chrome.tabs.create({ url: qrCodeUrl });
+
+  document.getElementById("qrCodeImage").src = qrCodeUrl;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
