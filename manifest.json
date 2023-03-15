@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "QR Code Creator",
+  "version": "1.0",
+  "description": "Generate a QR code for the current page URL to open on your phone.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["*://*/"]
+}
