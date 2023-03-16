@@ -11,10 +11,7 @@ function generateQRCode(url) {
   document.getElementById("qrCodeImage").src = qrCodeUrl;
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  const generateButton = document.getElementById("generateButton");
-  generateButton.addEventListener("click", async function () {
-    const url = await getCurrentTabUrl();
-    generateQRCode(url);
-  });
+document.addEventListener("DOMContentLoaded", async function () {
+  const url = await getCurrentTabUrl();
+  generateQRCode(url);
 });
